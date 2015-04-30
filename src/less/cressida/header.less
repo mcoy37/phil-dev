@@ -1,0 +1,96 @@
+// Header Logo =====================================================================
+
+.navbar-header a.navbar-brand {
+  .transition(height .5s ease);
+  .transition(background .5s ease);
+
+  width: 183px;
+  padding-top: 43px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: inline-block;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  span {
+    display: none;
+  }
+
+  .img-retina('/assets/img/logo-1x.png', '/assets/img/logo-2x.png', 178px, 48px);
+}
+.navbar {
+  border-radius: 0;
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
+.navbar-fixed-top {
+  top: 38px;
+}
+// Top Bar
+.top-bar {
+  position: fixed;
+  top: 0;
+  z-index: 1035;
+  display: block;
+  width: 100%;
+  background-color: lighten(@gray-darker, 15%);
+ }
+p.contacts {
+  width: auto;
+  line-height: 38px;
+  margin: 0px;
+  margin-right: 40px;
+  display: inline-block;
+  font-size: (@font-size-base - 1);
+  color: darken(@component-active-color, 45%);
+
+  i {
+    padding: 4px;
+    background-color: darken(@navbar-default-color, 5%);
+    border-radius: 100%;
+    color: #fff;
+  }
+  a {
+    color: darken(@component-active-color, 45%);
+  }
+}
+ul.social-link {
+  .list-inline;
+  display: block;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  li {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  li > a {
+    .transition(background-color .2 ease);
+    display: block;
+    padding: 9px 15px;
+    margin: 0 -2px;
+    background-color: @gray-darker;
+    border-right: 1px solid @gray-dark;
+    &:hover {
+      .transition(background-color .5 ease);
+      color: #ffffff;
+    }
+    &:hover.social-facebook {
+      background-color: @brand-primary;
+    }
+    &:hover.social-google-plus {
+      background-color: @brand-danger;
+    }
+    &:hover.social-twitter {
+      background-color: @brand-info;
+    }
+    &:hover.social-skype {
+      background-color: darken(@brand-success, 10%);
+    }
+  }
+}

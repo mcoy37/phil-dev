@@ -1,0 +1,34 @@
+---
+layout: page
+title: blog post 2
+---
+{% for blogs in site.data.main.blogpost %}
+  <div class="row">
+
+    <div class="col-md-1 text-center">
+
+      <p><i class="{{ blogs.icon }}"></i></p>
+      <p class="text-date">{{ blogs.date }}</p>
+
+    </div>
+
+    <div class="col-md-5">
+
+      <a href="blog-post.html"><img src="{{ blogs.images }}" class="img-responsive"></a>
+
+    </div>
+
+    <div class="col-md-6 blog-post-box">
+
+      <h3><a href="blog-post.html"><strong>{{ blogs.title }}</strong></a></h3>
+
+      <p>by <a href="#"><strong>{{ blogs.author }}</strong></a></p>
+      <p>{{ blogs.desc }}</p>
+
+      <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
+    </div>
+
+  </div>
+
+  <hr>
+{% endfor %}

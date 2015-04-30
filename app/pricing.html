@@ -1,0 +1,39 @@
+---
+layout: page
+title: Pricing Table
+---
+  <div class="row">
+
+    {% for pricing in site.data.main.pricelist %}
+    <div class="col-sm-3">
+
+      <div class="panel panel-default text-center">
+
+        <div class="panel-heading">
+          <strong>{{ pricing.package }} <span class="label label-success {{ pricing.class }}">Best Value!</span></strong>
+        </div>
+
+        <div class="panel-body">
+
+          <h3 class="panel-title price">{{ pricing.price }}
+            <span class="price-cents">{{ pricing.cents }}</span>
+            <span class="price-month">{{ pricing.month }}</span>
+          </h3>
+
+        </div>
+
+        <ul class="list-group">
+
+          {% for packages in pricing.item %}
+          <li class="list-group-item">{{ packages.offer }}</li>
+          {% endfor %}
+          <li class="list-group-item"><a class="btn btn-primary">Sign Up Now!</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+    {% endfor %}
+
+  </div>

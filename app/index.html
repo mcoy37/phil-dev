@@ -1,0 +1,97 @@
+---
+layout: page
+title:  Home
+---
+  <div class="row">
+      {% for info in site.data.main.featured %}
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h3><i class="{{ info.icon }} text-success"></i> <strong>{{ info.name }}</strong></h3>
+        <p>{{ info.desc }}</p>
+      </div>
+      {% endfor %}
+  </div>
+
+  <hr class="section-divider">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div><h2><strong>{{ site.title }} Theme:</strong> <span class="text-primary">A Clean &amp; Simple Full Website Template by Start Bootstrap</span></h2></div>
+      <p>A complete website design featuring various single page templates from Start Bootstraps library of free HTML starter templates.</p>
+    </div>
+
+  </div>
+
+  <hr class="section-divider">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+      <div class="title-highlight"><h2>Display Some Work on the <strong>Home Page Portfolio</strong></h2></div>
+    </div>
+
+    {% for portfolio in site.data.main.displayed %}
+    <div class="col-xs-4 col-md-4 col-sm-4" style="margin-bottom: 25px;">
+      <a href="#"><img class="img-responsive img-home-portfolio" alt="Designer" src="{{ portfolio.image }}"></a>
+    </div>
+    {% endfor %}
+
+  </div><!-- /.row -->
+
+  <hr class="section-divider">
+
+  <div class="row section-colored">
+
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <h2><strong>{{ site.title }} Theme</strong> Features Include:</h2>
+      <ul>
+        <li>Bootstrap 3 Framework</li>
+        <li>Mobile Responsive Design</li>
+        <li>Predefined File Paths</li>
+        <li>Working PHP Contact Page</li>
+        <li>Minimal Custom CSS Styles</li>
+        <li>Unstyled: Add Your Own Style and Content!</li>
+        <li>Font-Awesome fonts come pre-installed!</li>
+        <li>100% <strong>Free</strong> to Use</li>
+        <li>Open Source: Use for any project, private or commercial!</li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <img class="img-responsive" alt="Modern" src="http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_DSC_3274.jpg">
+    </div>
+
+  </div><!-- /.section-colored -->
+
+  <hr class="section-divider">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <img class="img-responsive" alt="Designer" src="http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1166.jpg">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit:</h2>
+      <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Nullam vel mi eget odio lacinia euismod.</li>
+      <li>Mauris commodo mi vel augue mollis dignissim.</li>
+      <li>Morbi a eros tempor nulla egestas vulputate.</li>
+      <li>Mauris ut justo ut dolor lobortis hendrerit.</li>
+      <li>Etiam sit amet felis fringilla, molestie sapien at, hendrerit neque.</li>
+      <li>Quisque sed risus a tellus gravida mollis.</li>
+      <li>Ut a sem eget <strong>nulla aliquet</strong> volutpat at id orci.</li>
+      <li>Nam congue ante ut diam mattis ultrices.</li>
+      </ul>
+    </div>
+  </div><!-- /.row -->
+
+  <hr class="section-divider">
+
+  <div class="row well">
+    <div class="col-xs-12 col-sm-8 col-md-8">
+      <h4><strong>{{ site.title }} Theme</strong> is a ready-to-use, Bootstrap 3 updated, multi-purpose HTML theme!</h4>
+      <p><strong>For more templates and more page options that you can integrate into this website template, visit Start Bootstrap!</strong></p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4">
+      <a class="btn btn-lg btn-primary" href="#">See More Templates!</a>
+    </div>
+  </div><!-- /.row -->

@@ -1,0 +1,57 @@
+---
+layout: page
+title: blog post 3
+---
+  <div class="row">
+
+    <div class="col-lg-8">
+      {% for blogs in site.data.main.mainblog %}
+      <img src="{{ blogs.image }}" class="img-responsive">
+      <hr>
+      <!-- the actual blog post: title/author/date/content -->
+      <p><i class="{{ blogs.icon }}"></i> <strong>Posted on</strong> {{ blogs.date }} at {{ blogs.time }} by <a href="#"><strong>{{ blogs.author }}</strong></a></p>
+      <hr>
+      <p class="lead">{{ blogs.desc1 }}</p>
+      <p>{{ blogs.desc2 }}</p>
+      <p>{{ blogs.desc3 }}</p>
+      <p><strong>Placeholder text by:</strong></p>
+
+      <ul>
+        {% for external in blogs.tag %}
+        <li><a href="#">{{ external.links }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <hr>
+      {% endfor %}
+
+      <!-- the comment box -->
+      <div class="well">
+
+        <h4>Leave a Comment:</h4>
+
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+      </div>
+
+      <hr>
+      <!-- the comments -->
+
+      {% for comments in site.data.main.blogcomment %}
+        <h4><strong>{{ comments.user }}</strong> <small>{{ comments.time }} on {{ comments.date }}</small></h4>
+        <p>{{ comments.comment }}</p>
+      {% endfor %}
+
+    </div>
+
+    {% include side-widgets.html %}
+
+  </div>
+

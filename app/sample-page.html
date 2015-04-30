@@ -1,0 +1,12 @@
+---
+layout: page
+title:  Home
+---
+  <div class="row">
+  {% for description in site.data.main.sample %}
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <h1>{{ description.desc }}</h1>
+      <p>{{ description.text }}</p>
+    </div>
+  {% endfor %}
+  </div>

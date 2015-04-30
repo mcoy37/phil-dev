@@ -1,0 +1,45 @@
+---
+layout: page
+title: 4 Column Portfolio
+---
+  {% for portfolio in site.data.main.displayed %}
+  <div class="row">
+
+    <div class="col-md-3 portfolio-item">
+      <a href="portfolio-item.html"><img class="img-responsive" src="{{ portfolio.image }}"></a>
+    </div>
+
+    <div class="col-md-3 portfolio-item">
+      <a href="portfolio-item.html"><img class="img-responsive" src="{{ portfolio.image }}"></a>
+    </div>
+
+    <div class="col-md-3 portfolio-item">
+      <a href="portfolio-item.html"><img class="img-responsive" src="{{ portfolio.image }}"></a>
+    </div>
+
+    <div class="col-md-3 portfolio-item">
+      <a href="portfolio-item.html"><img class="img-responsive" src="{{ portfolio.image }}"></a>
+    </div>
+
+  </div>
+  {% endfor %}
+
+  <hr>
+
+  <div class="row text-center">
+
+    <div class="col-lg-12">
+
+      <ul class="pagination">
+        <li><a href="#">«</a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">»</a></li>
+      </ul>
+
+    </div>
+
+  </div>

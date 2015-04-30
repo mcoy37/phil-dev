@@ -1,0 +1,321 @@
+@import url("//fonts.googleapis.com/css?family=Roboto:400,500");
+
+@theme-color: #93c54b;
+
+// Navbar =====================================================================
+
+.cressida {
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.navbar {
+  .nav > li > a {
+    .cressida();
+  }
+
+  &-form input,
+  &-form .form-control {
+    border: none;
+  }
+}
+
+// Buttons ====================================================================
+
+.btn {
+  border: none;
+  .cressida();
+
+  &:hover {
+    border-color: transparent;
+  }
+
+  &-lg {
+    line-height: 26px;
+  }
+
+  &-default {
+    &:hover {
+      background-color: @navbar-default-link-active-bg;
+    }
+  }
+}
+
+// Typography =================================================================
+
+// Tables =====================================================================
+
+// Forms ======================================================================
+
+input,
+.form-control {
+  .box-shadow(none);
+
+  &:focus {
+    border-color: @input-border;
+    .box-shadow(none);
+  }
+}
+
+.input-sm {
+  padding: 15px 10px;
+}
+
+// Navs =======================================================================
+
+.nav {
+  .cressida();
+
+  .open > a,
+  .open > a:hover,
+  .open > a:focus {
+    border-color: @gray-light;
+  }
+}
+
+.nav-tabs {
+
+  & > li > a {
+    background-color: @gray-lighter;
+    border-color: @nav-tabs-border-color;
+    color: @gray;
+  }
+
+  > li.disabled > a:hover {
+    background-color: @gray-lighter;
+  }
+}
+
+.nav-pills {
+  a {
+    color: @gray;
+  }
+
+  li > a {
+    border: 1px solid transparent;
+  }
+
+  li.active > a,
+  li > a:hover {
+    border-color: @gray-light;
+  }
+
+  li.disabled > a {
+    border-color: transparent;
+  }
+}
+
+.breadcrumb {
+  .cressida();
+
+  border: 1px solid @gray-light;
+
+  a {
+    color: @gray;
+  }
+}
+
+.pagination {
+  .cressida();
+}
+
+.pager {
+  .cressida();
+
+  li > a {
+    color: @gray;
+  }
+}
+
+.dropdown-menu {
+  & > li > a {
+    .cressida();
+  }
+}
+
+// Indicators =================================================================
+
+.alert {
+
+  a,
+  .alert-link {
+    color: #fff;
+  }
+}
+
+.tooltip {
+  .cressida();
+}
+
+// Progress bars ==============================================================
+
+.progress {
+  border-radius: 10px;
+  background-color: @gray-light;
+  .box-shadow(none);
+
+  &-bar {
+    .box-shadow(none);
+  }
+}
+
+// Containers =================================================================
+
+.list-group {
+  &-item {
+    padding: 16px 24px;
+  }
+}
+
+.well {
+  .box-shadow(none);
+}
+
+.panel {
+  .box-shadow(none);
+
+  &-heading,
+  &-title,
+  &-footer {
+    .cressida();
+    color: #fff;
+  }
+
+  &-default {
+    .panel-heading,
+    .panel-title,
+    .panel-footer {
+      color: @gray;
+    }
+  }
+}
+
+
+// Misc =====================================================================
+body {
+  padding-top: 120px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Breadcrumbs
+.breadcrumb {
+  color: lighten(@gray-light, 40%);
+  background-color: lighten(@breadcrumb-bg, 10%);
+  a {
+    color: darken(@breadcrumb-color, 40%);
+  }
+}
+.cm-highlight {
+  width: 100%;
+  min-height: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  background-color: @gray-darker;
+  border-bottom: 5px solid #eaeaea;
+
+  h1 {
+    color: #fff;
+  }
+}
+// Headlines
+.title-highlight {
+    display: block;
+    margin: 10px 0px 25px;
+    border-bottom: 1px dotted @table-border-color;
+
+    h1, h2, h3, h4, h5, h6 {
+      border-bottom: 2px solid @theme-color;
+      padding-bottom: 5px;
+      display: inline-block;
+      margin: 0px 0px -2px;
+      color: @text-color;
+
+      strong {
+        color: @theme-color;
+      }
+    }
+}
+//Bianca Widget
+
+.bianca-widget {
+  width: 100%;
+}
+.section-divider {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.pager > li > a {
+  color: @gray-darker;
+}
+// Team Thumbnails
+
+img.team-tmb {
+  border: 5px solid @thumbnail-border;
+  border-radius: 100%;
+}
+
+//Tab Pane
+
+.tab-content {
+  .tab-pane {
+    padding: 10px;
+    border-left: 1px solid @nav-tabs-border-color;
+    border-right: 1px solid @nav-tabs-border-color;
+    border-bottom: 1px solid @nav-tabs-border-color;
+  }
+}
+
+//Portfolio
+
+.portfolio-item {
+  img {
+    margin-bottom: 25px;
+  }
+}
+
+// Cressida
+// Custom
+// -----------------------------------------------------
+
+// Navbar =====================================================================
+
+.navbar {
+  border-width: 0;
+
+  &-default {
+
+    .badge {
+      background-color: #fff;
+      color: @navbar-default-bg;
+    }
+  }
+
+  &-inverse {
+
+    .badge {
+      background-color: #fff;
+      color: @navbar-inverse-bg;
+    }
+  }
+
+  &-brand {
+    padding: 18.5px 15px 20.5px;
+  }
+
+  &-form {
+    .form-control {
+      background-color: white;
+
+      &:focus {
+        border-color: white;
+      }
+    }
+  }
+}
+

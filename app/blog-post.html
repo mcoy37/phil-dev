@@ -1,0 +1,33 @@
+---
+layout: page
+title: Blog Post 1
+---
+  <div class="row">
+
+    <div class="col-lg-8 blog-post-box">
+
+      {% for blogs in site.data.main.blogpost %}
+      <h1><strong><a href="blog-post.html">{{ blogs.title }}</a></strong></h1>
+      <p class="lead">by <strong><a href="#">{{ blogs.author }}</a></strong></p>
+      <hr>
+      <p><i class="fa fa-clock-o"></i> <strong> Posted on </strong>{{ blogs.date }} at {{ blogs.time }}</p>
+      <hr>
+      <a href="blog-post.html"><img src="{{ blogs.images }}" class="img-responsive"></a>
+      <hr>
+      <p>{{ blogs.desc }}</p>
+      <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
+
+      <hr>
+      {% endfor %}
+
+      <ul class="pager">
+        <li class="previous"><a href="#">← Older</a></li>
+        <li class="next"><a href="#">Newer →</a></li>
+      </ul>
+
+    </div>
+
+    {% include side-widgets.html %}
+
+  </div><!-- /row -->
+

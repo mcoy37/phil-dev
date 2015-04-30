@@ -1,0 +1,70 @@
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" rel="home" href="#"><span>{{ site.title }}</span></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+    <ul class="nav navbar-nav">
+      <li><a href="{{ site.baseurl }}index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog Template <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}blog-post">Blog Post</a></li>
+          <li class="divider"></li>
+          <li><a href="{{ site.baseurl }}blog-post-1">Blog Post 1</a></li>
+          <li><a href="{{ site.baseurl }}blog-post-2">Blog Post 2</a></li>
+          <li><a href="{{ site.baseurl }}blog-post-3">Blog Post 3</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Template <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}single-portfolio">Single Portfolio</a></li>
+          <li class="divider"></li>
+          <li><a href="{{ site.baseurl }}portfolio-1">Portfolio 1 Column</a></li>
+          <li><a href="{{ site.baseurl }}portfolio-2">Portfolio 2 Column</a></li>
+          <li><a href="{{ site.baseurl }}portfolio-3">Portfolio 3 Column</a></li>
+          <li><a href="{{ site.baseurl }}portfolio-4">Portfolio 4 Column</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.baseurl }}contact">Contact</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}main-page">Default Page</a></li>
+          <li><a href="{{ site.baseurl }}sample-page">Sample Page</a></li>
+          <li><a href="{{ site.baseurl }}services">Service Page</a></li>
+          <li><a href="{{ site.baseurl }}sidebar">Sidebar</a></li>
+          <li><a href="{{ site.baseurl }}pricing">Pricing Template</a></li>
+          <li><a href="{{ site.baseurl }}faq">Faq</a></li>
+          <li><a href="{{ site.baseurl }}error404">Error Page</a></li>
+          <li class="dropdown-header">Disable</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="col-sm-3 col-md-3 pull-right">
+      <form class="navbar-form" role="search">
+        <div class="input-group">
+
+          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+    </div>
+
+    </div>
+  </nav>

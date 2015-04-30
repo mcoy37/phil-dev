@@ -1,0 +1,329 @@
+# Content Homepage
+# -------------
+
+featured:
+  - name:      "Example Featured Template 1"
+    desc:      "Cras euismod dui sed eleifend bibendum. Nullam mattis rhoncus hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia."
+    icon:      "fa fa-check-circle"
+
+  - name:      "Example Featured Template 2"
+    desc:      "Cras euismod dui sed eleifend bibendum. Nullam mattis rhoncus hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia."
+    icon:      "fa fa-pencil"
+
+  - name:      "Example Featured Template 3"
+    desc:      "Cras euismod dui sed eleifend bibendum. Nullam mattis rhoncus hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia."
+    icon:      "fa fa-book"
+
+
+# Content Services
+# -------------
+
+mainservice:
+  - images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_0499.jpg"
+
+services:
+  - title: "Services One"
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum scelerisque sapien et interdum. Fusce pellentesque scelerisque elit, eu bibendum orci facilisis quis."
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1275.jpg"
+  - title: "Services Two"
+    desc: "Nullam blandit ornare eros nec rhoncus. Nam ultricies odio quis nibh interdum gravida. Curabitur dui augue, euismod ut egestas sit amet, venenatis id eros. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3186.jpg"
+  - title: "Services Three"
+    desc: "Proin lacinia sem id felis tempor consequat. Fusce sit amet arcu et sapien fringilla adipiscing. Mauris scelerisque augue in neque fringilla viverra."
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3130.jpg"
+
+# Content Portfolio
+# -------------
+
+displayed:
+  - title: "Portfolio Sample 1"
+    sub: "Subheading 1"
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum scelerisque sapien et interdum. Fusce pellentesque scelerisque elit, eu bibendum orci facilisis quis. In auctor leo pharetra diam feugiat rhoncus vel et mauris. Integer consectetur at turpis quis volutpat. "
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_9857.jpg"
+
+  - title: "Portfolio Sample 2"
+    sub: "Subheading 2"
+    desc: "Nullam blandit ornare eros nec rhoncus. Nam ultricies odio quis nibh interdum gravida. Curabitur dui augue, euismod ut egestas sit amet, venenatis id eros. Curabitur in diam quis dolor volutpat feugiat. "
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_9542.jpg"
+
+  - title: "Portfolio Sample 3"
+    sub: "Subheading 3"
+    desc: "Proin lacinia sem id felis tempor consequat. Fusce sit amet arcu et sapien fringilla adipiscing. Mauris scelerisque augue in neque fringilla viverra. Proin quis erat a erat sollicitudin interdum sit amet et quam. Sed ac imperdiet mauris. Maecenas posuere sapien quam, ut tincidunt eros pulvinar vel. "
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_8687.jpg"
+
+  - title: "Portfolio Sample 4"
+    sub: "Subheading 4"
+    desc: "Praesent vehicula nunc ac orci ultrices, nec mollis lacus sodales. Nam blandit sapien lacus, ut convallis orci ultricies at. Vestibulum ut consequat nisl. Pellentesque faucibus pharetra quam, eget dapibus sapien fermentum sit amet. Donec feugiat vulputate erat aliquet porta. "
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_8687.jpg"
+
+  - title: "Portfolio Sample 5"
+    sub: "Subheading 5"
+    desc: "Vivamus molestie justo id eros interdum, vitae tempor tortor elementum. Suspendisse et dignissim ante, viverra dapibus leo. Aenean id neque id elit tempor volutpat. Mauris tempus tincidunt tortor vitae rhoncus. Nullam nisl arcu, consequat sed nunc ut, consequat scelerisque dui."
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_4828.jpg"
+
+  - title: "Portfolio Sample 6"
+    sub: "Subheading 6"
+    desc: "Mauris pretium, dolor vel suscipit porttitor, urna augue euismod urna, eu tempus metus risus ac nulla. Nulla eu blandit lectus. Mauris eu bibendum lectus. Integer a gravida augue. Ut ullamcorper in purus id sagittis. Nullam non dapibus libero. Pellentesque at felis vel est egestas egestas. "
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3186.jpg"
+
+  - title: "Portfolio Sample 7"
+    sub: "Subheading 7"
+    desc: "Aliquam iaculis augue hendrerit justo vulputate, eu pulvinar mauris convallis. Ut vitae dolor sed quam euismod dictum quis ac dolor. Ut molestie nisl vitae libero suscipit, id egestas magna lobortis. Suspendisse ut purus ut nisl elementum sodales sollicitudin at mi. "
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_9998.jpg"
+
+  - title: "Portfolio Sample 8"
+    sub: "Subheading 8"
+    desc: "Proin mattis, arcu placerat cursus facilisis, enim justo viverra ipsum, vitae fermentum sem enim id sem. Integer varius tortor eu quam aliquet commodo. Curabitur luctus convallis lorem vitae lobortis. Maecenas eu vehicula eros,"
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1166.jpg"
+
+  - title: "Portfolio Sample 9"
+    sub: "Subheading 9"
+    desc: "enean malesuada ante ac neque fermentum interdum. Maecenas purus ligula, eleifend sit amet rutrum et, accumsan sed felis. Donec lectus ante, venenatis nec cursus a, suscipit id nisi. Duis rutrum luctus felis. Duis at auctor lorem."
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_DSC_3274.jpg"
+
+
+# Content Blog Post
+# -------------
+
+blogpost:
+
+  - title: "Sample Blog 1"
+    author: "John Doyle"
+    date: "April 01,2014"
+    time: "10:45 AM"
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum scelerisque sapien et interdum. Fusce pellentesque scelerisque elit, eu bibendum orci facilisis quis. In auctor leo pharetra diam feugiat rhoncus vel et mauris. Integer consectetur at turpis quis volutpat. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_DSC_3274.jpg"
+    icon: "fa fa-camera fa-4x"
+
+  - title: "Sample Blog 2"
+    author: "Pongster"
+    date: "May 01,2014"
+    time: "03:23 PM"
+    desc: "Nullam blandit ornare eros nec rhoncus. Nam ultricies odio quis nibh interdum gravida. Curabitur dui augue, euismod ut egestas sit amet, venenatis id eros. Curabitur in diam quis dolor volutpat feugiat. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_0499.jpg"
+    icon: "fa fa-film fa-4x"
+
+  - title: "Sample Blog 3"
+    author: "West Side"
+    date: "June 01,2014"
+    time: "11:22 AM"
+    desc: "Proin lacinia sem id felis tempor consequat. Fusce sit amet arcu et sapien fringilla adipiscing. Mauris scelerisque augue in neque fringilla viverra. Proin quis erat a erat sollicitudin interdum sit amet et quam. Sed ac imperdiet mauris. Maecenas posuere sapien quam, ut tincidunt eros pulvinar vel. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1166.jpg"
+    icon: "fa fa-file fa-4x"
+
+  - title: "Sample Blog 4"
+    author: "Alex Lugtu"
+    date: "July 01,2014"
+    time: "05:15 PM"
+    desc: "Praesent vehicula nunc ac orci ultrices, nec mollis lacus sodales. Nam blandit sapien lacus, ut convallis orci ultricies at. Vestibulum ut consequat nisl. Pellentesque faucibus pharetra quam, eget dapibus sapien fermentum sit amet. Donec feugiat vulputate erat aliquet porta. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1275.jpg"
+    icon: "fa fa-file-text fa-4x"
+
+  - title: "Sample Blog 5"
+    author: "Dyle John"
+    date: "August 01,2014"
+    time: "06:20 PM"
+    desc: "Vivamus molestie justo id eros interdum, vitae tempor tortor elementum. Suspendisse et dignissim ante, viverra dapibus leo. Aenean id neque id elit tempor volutpat. Mauris tempus tincidunt tortor vitae rhoncus. Nullam nisl arcu, consequat sed nunc ut, consequat scelerisque dui."
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3130.jpg"
+    icon: "fa fa-laptop fa-4x"
+
+  - title: "Sample Blog 6"
+    author: "Michael Schums"
+    date: "December 01,2014"
+    time: "07:33 AM"
+    desc: "Mauris pretium, dolor vel suscipit porttitor, urna augue euismod urna, eu tempus metus risus ac nulla. Nulla eu blandit lectus. Mauris eu bibendum lectus. Integer a gravida augue. Ut ullamcorper in purus id sagittis. Nullam non dapibus libero. Pellentesque at felis vel est egestas egestas. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_9998.jpg"
+    icon: "fa fa-money fa-4x"
+
+categories:
+  - title: "Office"
+    sub: "Office Supplies"
+  - title: "Oily Foods"
+    sub: "Fried Foods"
+  - title: "Healthy Diet"
+    sub: "Exercise Machine"
+  - title: "Electronic Gadgets"
+    sub: "Cheap Deal"
+    icon: "fa fa-music fa-4x"
+
+mainblog:
+  - title: "Blog Page Title"
+    sub: "Subheading"
+    author: "John Doyle"
+    date: "November 25,2014"
+    time: "03:45 AM"
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_9857.jpg"
+    icon: "fa fa-clock-o"
+    desc1: "Nullam blandit ornare eros nec rhoncus. Nam ultricies odio quis nibh interdum gravida. Curabitur dui augue, euismod ut egestas sit amet, venenatis id eros. Curabitur in diam quis dolor volutpat feugiat. Morbi turpis turpis, ornare a erat eu, pharetra pulvinar orci. Vivamus malesuada vel sapien eu tincidunt. Quisque aliquam commodo fermentum. Proin vel semper dolor. Ut sed nisi libero. Integer quis euismod nulla."
+    desc2: "Duis porttitor ligula vel est dignissim, sed blandit risus tincidunt. Fusce nec placerat metus. Nulla sagittis laoreet commodo. Donec sit amet fermentum tortor. Nulla in congue mi, non aliquet nibh. Duis egestas pharetra purus, ac interdum nibh semper at. Aliquam scelerisque, nibh sed pharetra consectetur, nunc magna pulvinar lectus, a fringilla quam augue porta tortor. Ut ac fermentum leo. Curabitur suscipit venenatis laoreet."
+    desc3: "Aliquam at faucibus metus. Suspendisse lacinia tortor ullamcorper aliquam molestie. Proin a aliquet nunc. Pellentesque eget sagittis turpis, nec lacinia neque. Maecenas sit amet condimentum eros. Integer ultrices, lectus in mattis pretium, sem purus dictum lacus, eget luctus neque nisl ut enim. Ut quis quam a nunc interdum feugiat."
+    desc4: "Aenean malesuada ante ac neque fermentum interdum. Maecenas purus ligula, eleifend sit amet rutrum et, accumsan sed felis. Donec lectus ante, venenatis nec cursus a, suscipit id nisi. Duis rutrum luctus felis. Duis at auctor lorem. Curabitur eu cursus lectus, eu ultricies ante. Ut eu pellentesque ligula, nec mattis mauris. Aenean sed magna in arcu luctus dapibus non vehicula lectus. Duis eu ante at enim luctus molestie."
+    tag:
+      - links: "blog sample 1"
+      - links: "blog sample 2"
+      - links: "blog sample 3"
+
+# Content Blog Post Comment
+# -------------
+
+blogcomment:
+  - user: "Jhonnie Doyle"
+    date: "April 20,2013"
+    time: "01:23 PM"
+    comment: "Aenean malesuada ante ac neque fermentum interdum. Maecenas purus ligula, eleifend sit amet rutrum et, accumsan sed felis. Donec lectus ante, venenatis nec cursus a, suscipit id nisi. Duis rutrum luctus felis. Duis at auctor lorem. Curabitur eu cursus lectus, eu ultricies ante. Ut eu pellentesque ligula, nec mattis mauris. Aenean sed magna in arcu luctus dapibus non vehicula lectus. Duis eu ante at enim luctus molestie."
+  - user: "Richie Boy"
+    date: "July 23,2014"
+    time: "05:23 AM"
+    comment: "Duis porttitor ligula vel est dignissim, sed blandit risus tincidunt. Fusce nec placerat metus. Nulla sagittis laoreet commodo. Donec sit amet fermentum tortor. Nulla in congue mi, non aliquet nibh. Duis egestas pharetra purus, ac interdum nibh semper at. Aliquam scelerisque, nibh sed pharetra consectetur, nunc magna pulvinar lectus, a fringilla quam augue porta tortor. Ut ac fermentum leo. Curabitur suscipit venenatis laoreet."
+
+# Content Blog Post Comment
+# -------------
+
+pricelist:
+  - package: "Basic"
+    price: "$9"
+    cents: "99"
+    month: "mo."
+    class: "hide"
+    item:
+        - offer: "10 Projects"
+        - offer: "20 GB of Storage"
+        - offer: "Up to 50 Users"
+        - offer: "Security Features"
+  - package: "Plus"
+    price: "$19"
+    cents: "99"
+    month: "mo."
+    class: "hide"
+    item:
+        - offer: "20 Projects"
+        - offer: "40 GB of Storage"
+        - offer: "Up to 100 Users"
+        - offer: "Security Features"
+  - package: "Premium"
+    price: "$29"
+    cents: "99"
+    month: "mo."
+    item:
+       - offer: "30 Projects"
+       - offer: "50 GB of Storage"
+       - offer: "Up to 150 Users"
+       - offer: "Security Features"
+  - package: "Ultimate"
+    price: "$39"
+    cents: "99"
+    month: "mo."
+    class: "hide"
+    item:
+       - offer: "Unlimited"
+       - offer: "Unlimited of Storage"
+       - offer: "Unlimited Users"
+       - offer: "Special Security Features"
+
+# Content Services
+# -------------
+
+mainservice:
+  - images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_0499.jpg"
+
+services:
+  - title: "Service One"
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum scelerisque sapien et interdum. Fusce pellentesque scelerisque elit, eu bibendum orci facilisis quis."
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1275.jpg"
+  - title: "Services Two"
+    desc: "Nullam blandit ornare eros nec rhoncus. Nam ultricies odio quis nibh interdum gravida. Curabitur dui augue, euismod ut egestas sit amet, venenatis id eros. "
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3186.jpg"
+  - title: "Serives Three"
+    desc: "Proin lacinia sem id felis tempor consequat. Fusce sit amet arcu et sapien fringilla adipiscing. Mauris scelerisque augue in neque fringilla viverra."
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3130.jpg"
+
+# Content Contact
+# -------------
+
+contact:
+  - fname: "andrew"
+  - lname: "monte"
+  - street: "5555 44th Street N."
+  - city: "Bootstrapville"
+  - country: "CA"
+  - zip: "2009"
+
+# Content Single Portfolio
+# -------------
+
+portfolio1:
+  - title: "item 1"
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1275.jpg"
+  - title: "item 2"
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3186.jpg"
+  - title: "item 3"
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3130.jpg"
+  - title: "item 3"
+    images: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_0499.jpg"
+
+# Carousel Homepage
+# -------------
+
+blogcarousel:
+  - slide: 1
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_1275.jpg"
+    head: "Featured: First slide label"
+    text: "Nulla vitae elit libero, a pharetra augue mollis interdum."
+  - slide: 2
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3186.jpg"
+    head: "Featured: Second slide label"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  - slide: 3
+    image: "http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_3130.jpg"
+    head: "Featured: Third slide label"
+    text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur."
+
+# About Content
+# -------------
+
+about:
+  - name: "John Smith"
+    title: "Chief Executive Officer"
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa dolor, lobortis in venenatis rhoncus, cursus nec ligula. Maecenas quis blandit tortor, sed placerat ligula. Proin non turpis et eros malesuada hendrerit."
+    image: "http://1.gravatar.com/avatar/d6f5b51e470ea697308fae0a8816a041?s=160&d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&r=PG"
+  - name: "Michael Loyd"
+    title: "Finance Operations Manager"
+    desc: "Phasellus dignissim urna vel fringilla aliquet. Suspendisse adipiscing tristique felis, dignissim pretium lacus placerat in. Nam iaculis mauris non mauris pulvinar auctor. "
+    image: "http://1.gravatar.com/avatar/5941ef4e7352468996a36a486c80a57d?s=160&d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&r=PG"
+  - name: "Ella Parker"
+    title: "Customer Tech Support"
+    desc: "Maecenas quam purus, pharetra vitae interdum sit amet, malesuada sit amet sapien. Cras est est, convallis et arcu et, viverra sagittis enim. Praesent dapibus commodo lectus sed porttitor. Pellentesque in malesuada est. Nunc blandit magna non dui lobortis commodo."
+    image: "http://0.gravatar.com/avatar/0aa407b119070345164410a7178b4680?s=160&d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&r=PG"
+  - name: "Victoria Hansen"
+    title: "Technical Support"
+    desc: "In ultrices dui volutpat blandit semper. Aenean in felis lacinia, interdum dui nec, malesuada lorem. Maecenas quam enim, viverra sed elit nec, vulputate tincidunt augue. Nam facilisis ut nulla ac lacinia. Ut lectus massa, faucibus nec libero sed, fringilla dignissim dolor. "
+    image: "http://0.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&r=PG"
+  - name: "Anthony Daniels"
+    title: "Community Manager"
+    desc: "Suspendisse consequat odio dolor, eu sodales nisl pretium ac. Sed tincidunt pulvinar viverra. Sed id pretium augue. Donec auctor sem id eros sagittis, et laoreet magna adipiscing. Morbi sodales sem quis lectus commodo mattis. Nulla porta vitae elit at interdum. "
+    image: "http://0.gravatar.com/avatar/0257c59d68f24a7ec605207536aff175?s=160&d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&r=PG"
+  - name: "Denis Laurian"
+    title: "Operation Manager"
+    desc: "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean erat ante, lobortis at congue ac, pulvinar quis lorem. Proin vel arcu purus. Pellentesque sed justo sagittis, ornare massa a, congue nunc. Aenean egestas vehicula nisl, id rutrum libero egestas id. Maecenas ac laoreet nunc."
+    image: "http://1.gravatar.com/avatar/539f2df37bf37b5b05061a6825e6041f?s=160&d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&r=PG"
+
+customer:
+  - title: "Customer"
+    content:
+      - img: "https://s3.amazonaws.com/ooomf-com-files/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg"
+      - img: "https://s3.amazonaws.com/ooomf-com-files/jNgy1b3MR0uJx7rysNNf_Rooftops%20by%20Igor%20Ovsyannykov.jpg"
+      - img: "https://s3.amazonaws.com/ooomf-com-files/KgqDYXRLSeyeSbhxYTjK_lookingAtTheArch.jpg"
+      - img: "https://s3.amazonaws.com/ooomf-com-files/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+      - img: "https://s3.amazonaws.com/ooomf-com-files/apx8EPiSnWoYHSEiUENI_14553734675_699b2aa038_o.jpg"
+      - img: "https://s3.amazonaws.com/ooomf-com-files/pygwO3glRbaBCh2uRyd4_8420_rgb.jpg"
+
+# Sample Page Content
+# -------------
+
+sample:
+  - desc: "This page features a page header, breadcrumbs, and the footer but that's it. Use this as a template for completely custom pages you wish to add to your site."
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus justo eu lacus fringilla fringilla. Proin ut nisl id risus malesuada elementum. Aliquam nec rhoncus eros, vel faucibus nunc. Proin sit amet nunc in dolor elementum elementum. Aliquam sodales convallis eros sed venenatis. Nunc at magna vel tellus tincidunt volutpat. Vestibulum et mauris sit amet ipsum aliquet dignissim vel a quam. Sed fringilla viverra sapien, id malesuada nibh mollis non. Pellentesque sodales dui at aliquet sagittis. Nullam orci risus, porta sit amet lorem ut, consequat vulputate augue. Aenean vestibulum ornare justo, a euismod est sagittis a. In convallis magna a velit suscipit, at varius est auctor. Nullam in varius quam."
+  - desc: "This page features a page header, breadcrumbs, and the footer but that's it. Use this as a template for completely custom pages you wish to add to your site."
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus justo eu lacus fringilla fringilla. Proin ut nisl id risus malesuada elementum. Aliquam nec rhoncus eros, vel faucibus nunc. Proin sit amet nunc in dolor elementum elementum. Aliquam sodales convallis eros sed venenatis. Nunc at magna vel tellus tincidunt volutpat. Vestibulum et mauris sit amet ipsum aliquet dignissim vel a quam. Sed fringilla viverra sapien, id malesuada nibh mollis non. Pellentesque sodales dui at aliquet sagittis. Nullam orci risus, porta sit amet lorem ut, consequat vulputate augue. Aenean vestibulum ornare justo, a euismod est sagittis a. In convallis magna a velit suscipit, at varius est auctor. Nullam in varius quam."
+  - desc: "This page features a page header, breadcrumbs, and the footer but that's it. Use this as a template for completely custom pages you wish to add to your site."
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus justo eu lacus fringilla fringilla. Proin ut nisl id risus malesuada elementum. Aliquam nec rhoncus eros, vel faucibus nunc. Proin sit amet nunc in dolor elementum elementum. Aliquam sodales convallis eros sed venenatis. Nunc at magna vel tellus tincidunt volutpat. Vestibulum et mauris sit amet ipsum aliquet dignissim vel a quam. Sed fringilla viverra sapien, id malesuada nibh mollis non. Pellentesque sodales dui at aliquet sagittis. Nullam orci risus, porta sit amet lorem ut, consequat vulputate augue. Aenean vestibulum ornare justo, a euismod est sagittis a. In convallis magna a velit suscipit, at varius est auctor. Nullam in varius quam."

@@ -1,0 +1,37 @@
+
+# Site Information
+# -----------------------------------------------------------------------------
+
+title:        "Cressida"
+tagline:      "Project scaffold/boilerplate/template for front-end prototyping with Jekyll"
+version:      "0.1.5"
+
+author:      "mcoy"
+description: "Project scaffold/boilerplate/template for front-end prototyping with Jekyll"
+keywords:    ""
+
+
+# Repository
+repository:   ""
+issues:       ""
+
+
+# Format
+# -----------------------------------------------------------------------------
+markdown:     kramdown
+permalink:    pretty
+highlighter:  true
+paginate:     5
+
+
+# Build Info
+# -----------------------------------------------------------------------------
+source:       app
+include:      ['.htaccess']
+exclude:      ['.gitignore', 'Gruntfile.js', 'package.json', 'bower.json', 'node_modules', 'bower_components']
+
+# Server
+host:         localhost
+port:         4010
+baseurl:      /
+destination:  _gh_pages
